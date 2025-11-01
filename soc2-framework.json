@@ -1,0 +1,18 @@
+{
+  "framework": {
+    "name": "SOC2 Trust Services Criteria",
+    "version": "2024",
+    "applicable_services": ["Security", "Availability", "Processing Integrity", "Confidentiality", "Privacy"]
+  },
+  "controls": {
+    "cc1": "Logical Access Security",
+    "cc6": "Logical and Physical Access Controls", 
+    "cc7": "System Operations",
+    "cc8": "Change Management",
+    "cc9": "Risk Mitigation"
+  },
+  "evidence_requirements": {
+    "automated": ["log_analysis", "configuration_checks", "security_scans"],
+    "manual": ["policy_reviews", "interview_transcripts", "physical_inspections"]
+  }
+}

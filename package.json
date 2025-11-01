@@ -1,0 +1,12 @@
+{
+  "name": "@raspberry-coffee/soc2-readiness",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node ComplianceEngine.js",
+    "audit": "node SecurityAuditor.js"
+  },
+  "dependencies": {
+    "crypto": "^1.0.0"
+  }
+}
